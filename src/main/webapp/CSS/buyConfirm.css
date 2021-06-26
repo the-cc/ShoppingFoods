@@ -1,0 +1,58 @@
+.container {
+	margin-right:auto;
+	margin-left:auto;
+	*zoom:1
+}
+
+.container {
+	width:1151px;
+	margin-top: 180px;
+}
+.order-info {
+	border:1px solid #dfdfdf;
+	padding:25px 30px 25px 260px;
+	margin-bottom:15px;
+	position:relative;
+	zoom:1;
+	background-color: white;
+}
+.order-info h3 {
+	font-size:24px;
+	color:#000;
+	font-weight:normal
+}
+.order-info p {
+	line-height:2.5;
+	color:#6d6d6d
+}
+.order-info p .line {
+	margin:0 3px
+}
+
+.order-info .icon-box {
+	width:240px;
+	height:100%;
+	_height:194px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#fafafa;
+	zoom:1
+}
+.order-info .icon-box .iconfont {
+	display:block;
+	width:90px;
+	height:90px;
+	line-height:1;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-50px;
+	margin-top:-50px;
+	text-align:center;
+	font-size:90px;
+	border:5px solid #83bd39;
+	color:#83bd39;
+	border-radius:50%
+}
+.iconfont img{ margin-top:20px;}

@@ -1,0 +1,134 @@
+a{
+	text-decoration: none;
+}
+#ms-center {
+
+	max-width: 1151px;
+	_width: 1240px
+}
+
+.ms-side {
+	position: absolute;
+	overflow: hidden;
+	width: 160px;
+	background: #FFF;
+	background-image: url(images/menu-treeNeck.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	box-shadow: 0 2px 5px #e3e3e3, -1px 2px 5px #e3e3e3;
+	z-index: 12;
+	top: 17px;
+	left: 42px;
+}
+.side-menu {
+	padding: 20px 0 0 0
+}
+
+.side-menu dl{
+	line-height: 28px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	font-weight: 700;
+	color: #333
+}
+.side-menu dl dd{
+	margin-left: 19px;
+}
+.side-menu dl dd a:hover{
+	color: #baf076;
+}
+.side-menu-tree {
+	padding: 0 20px 12px 20px;
+	overflow: hidden
+}
+.side-menu-tree a {
+	display: inline-block;
+	line-height: 24px;
+	color: #333
+}
+.side-menu-tree span {
+	display: inline-block;
+	width: 3px;
+	text-align: center;
+	height: 3px;
+	background-color: #000000;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.side-neck {
+	position: absolute;
+	left: 30px;
+	top: 6px;
+	width: 185px;
+	height: 18px;
+	background: #FFF;
+	border: solid 1px #FFF;
+	border-radius: 18px;
+	box-shadow: 0 2px 5px #e3e3e3;
+	z-index: 10
+}
+.side-neck i {
+	display: block;
+	margin: 5px 7px;
+	height: 8px;
+	background: #DDD;
+	border: solid 1px #DDD;
+	border-radius: 15px
+}
+.side-menu-off .switch-side-menu {
+	display: block;
+	background: #f5f5f5;
+	height: 20px;
+	_height: 0;
+	transition: all .2s
+}
+.switch-side-menu {
+	text-align: center
+}
+
+.switch-side-menu i {
+	display: inline-block;
+	height: 0;
+	width: 0;
+	border: solid 5px #f5f5f5
+}
+.icon-up-side i {
+	margin-top: 3px;
+	_margin: -12px 0 8px 0;
+	border-bottom-color: #BBB
+}
+
+.b-col {
+	border: solid 1px #DDD
+}
+
+.cont {
+	position: relative;
+	clear: both
+}
+
+
+
+.personal-member .main-wrap {
+	width: 910px;
+	margin: 0px 0 0px 240px;
+	padding: 0 0 0px 0;
+	border: 1px solid #ddd;
+	background: #fff;
+	height: 596px;
+}
+
+.personal-member .main-wrap h3 {
+	height: 38px;
+	padding: 0 10px;
+	background: #fafafa;
+	color: #666
+}
+
+.personal-member .main-wrap h3 strong {
+	line-height:38px;
+}
+
+
+

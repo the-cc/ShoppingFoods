@@ -1,0 +1,244 @@
+button{
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.center {
+    width: 1151px;
+    height: 598px;
+    background: #FFF;
+}
+
+.center .showbot {
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.center .showbot #showbox {
+    background: #eee;
+    border: #848484 solid 2px;
+}
+
+.center .showbot #showbox img {
+    width: 400px;
+    height: 400px;
+}
+
+.center .showbot #showbox span {
+    background:rgba(67,255,195,0.29) repeat;
+    cursor:crosshair;
+}
+
+.center .showbot #showsum {
+    left: 25px;
+    margin-top: 10px;
+}
+
+.center .showbot #showsum span {
+    border: 1px solid #ddd;
+}
+
+.center .showbot #showsum span.sel {
+    border: 1px solid #f60;
+}
+
+.center .showbot .showpage {
+    width: 400px;
+    position: relative;
+}
+
+.center .showbot .showpage a {
+    display: block;
+    width: 15px;
+    border: 1px solid #ddd;
+    height: 60px;
+    line-height: 60px;
+    background: #eee;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -62px;
+    text-decoration: none;
+    color: #999;
+}
+
+.center .showbot .showpage a#shownext {
+    left: auto;
+    right: 0;
+}
+
+.center .showbot .showpage a:hover {
+    background: #ccc;
+    color: #777;
+}
+
+.center .tb-property {
+    width: 530px;
+    height: 520px;
+    margin-left: 80px;
+    margin-top: 70px;
+    float: left;
+}
+
+.center .tb-property .tr-nobdr {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.center .tb-property .tr-nobdr h3 {
+    color: #171717;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.center .tb-property .txt {
+    width: 520px;
+    margin-top: 15px;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.center .tb-property .txt .nowprice {
+    display: block;
+    line-height: 100px;
+    color: #f73a3a;
+    font-size: 24px;
+    float: left;
+}
+
+.center .tb-property .txt .nowprice a {
+    font-size: 36px;
+    color: #f73a3a;
+}
+
+.center .tb-property .txt .nowprice a:hover {
+    text-decoration: none;
+}
+
+.center .tb-property .txt .cumulative {
+    float: right;
+
+}
+
+.center .tb-property .txt .cumulative .number {
+    float: left;
+    margin-top: 30px;
+    padding: 0px 10px;
+    border-right: #e7e7e7 solid 1px;
+    font-size: 14px;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+.center .tb-property .txt .cumulative .number a{
+    color:saddlebrown;
+}
+.center .tb-property .txt .cumulative .number a:hover{
+    text-decoration: underline;
+}
+
+.center .tb-property .txt .cumulative .number em {
+    color: #5885c6;
+    font-style: normal
+}
+
+.center .tb-property .txt .cumulative .tyu {
+    border: none;
+}
+
+.center .tb-property .txt-h {
+    width: 520px;
+    overflow: hidden;
+}
+
+.center .tb-property .txt-h .tex-o {
+    float: left;
+    font-size: 14px;
+    line-height: 80px;
+    padding-right: 20px;
+    color: #848484;
+}
+
+.center .tb-property .txt-h #glist {
+    padding-top: 25px;
+}
+
+.center .tb-property .txt-h #glist li {
+    float: left;
+    padding-right: 10px;
+}
+
+.center .tb-property .txt-h #glist li a {
+    padding: 5px 8px;
+    color: #222222;
+    font-size: 16px;
+    border: #e3e3e3 solid 1px;
+    display: block;
+}
+
+.center .tb-property .txt-h #glist li a:hover {
+    border: #f73a3a solid 1px;
+    text-decoration: none;
+    color: #f73a3a;
+}
+
+.center .tb-property .gcIpt {
+    height: 70px;
+}
+
+.center .tb-property .gcIpt .guT {
+    color: #848484;
+    font-size: 14px;
+    padding-right: 18px;
+    line-height: 70px;
+}
+
+.center .tb-property .gcIpt input {
+    border: #e3e3e3 solid 1px;
+    padding: 5px 8px;
+    color: #848484;
+    font-size: 16px;
+}
+.center .tb-property .gcIpt .Hgt {
+    color: #424242;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.center .tb-property .nobdr-btns {
+    padding-top: 25px;
+}
+
+.center .tb-property .nobdr-btns .addcart {
+    background: #fd532d;
+    padding: 0px 50px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 50px;
+}
+.center .tb-property .nobdr-btns .addcart img {
+    vertical-align: middle;
+    margin-bottom: 3px;
+    padding-right: 5px;
+}
+.center .tb-property .nobdr-btns .yh {
+    background: #e60013;
+}
+
+.center .tb-property .guarantee {
+    height: 50px;
+}
+
+.center .tb-property .guarantee span {
+    color: #666666;
+    font-size: 14px;
+    line-height: 50px;
+}
